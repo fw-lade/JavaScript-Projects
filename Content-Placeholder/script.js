@@ -14,7 +14,7 @@ function getData() {
     header.innerHTML = '<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="">'
     title.innerHTML = 'Lorem ipsum dolor sit amet'
     excerpt.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, doloremque'
-    profile_img.innerHTML = '<img src="/Content-Placeholder/IMG_20180125_002545.JPG" alt="">'
+    profile_img.innerHTML = '<img src="/JavaScript-Projects/Content-Placeholder/IMG_20180125_002545.JPG" alt="">'
     name.innerHTML = 'Drake Brown'
     date.innerHTML = 'Aug 25, 2022'
 
