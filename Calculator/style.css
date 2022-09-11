@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.display{
+    height: 60px;
+    width: 94%;
+    text-align: right;
+    padding: 10px;
+}
+.container{
+    background-color: crimson;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 26px;
+    margin: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(32, 32, 36);
+    cursor: pointer;
+}
+
+
+@media (max-width: 400px){
+    .display{
+        width: 92%;
+    }
+    button{
+        padding: 23px;
+        margin: 10px;
+        font-size: 10px;
+    }
+}
